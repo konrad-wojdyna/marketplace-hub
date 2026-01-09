@@ -1,0 +1,64 @@
+# ============ BACKEND (Java/Maven) ============
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/*.iml
+backend/*.iws
+backend/*.ipr
+backend/.idea/
+
+# ============ FRONTEND (Node/React) ============
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ============ IDE ============
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# ============ OS ============
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ============ LOGS ============
+*.log
+logs/
+
+# ============ DOCKER ============
+docker-compose.override.yml
+
+# ============ SECRETS ============
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+*.p12
+*.jks
+
+# ============ TEMPORARY FILES ============
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+
+# ============ DATABASE ============
+*.db
+*.sqlite
+*.sqlite3

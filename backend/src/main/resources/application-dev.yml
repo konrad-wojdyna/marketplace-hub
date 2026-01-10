@@ -8,3 +8,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
+
+  logging:
+    level:
+        com.marketplace.backend: DEBUG
+        org.hibernate.SQL: DEBUG
+        org.flywaydb: DEBUG
